@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>This is my first html </title>
+</head>
+<style>
+body {
+	background-color: rgba(162, 125, 211, 0.938);
+}
+</style>
+
+<body>
+	<h1>Student information</h1>
+	<p><i>This page contain some informaions about student</i>.such as table,form etc.<b>By casting a quick glance at this website you can easily understand</b>.peron's gender, department and and a commentbox are also availabe . <u>you can share your valuabe opinion with us.</u> </p>
+	<table border=1px; color :solid black;>
+		<tr>
+			<th>Student name </th>
+			<th>Roll</th>
+			<th>Cgpa</th>
+		</tr>
+		<tr>
+			<td>jhon</td>
+			<td>101</td>
+			<td>3.45</td>
+		</tr>
+		<tr>
+			<td>max</td>
+			<td>102</td>
+			<td>3.45</td>
+		</tr>
+		<tr>
+			<td>poul</td>
+			<td>103</td>
+			<td>3.69</td>
+		</tr>
+		<tr>
+			<td>snow</td>
+			<td>104</td>
+			<td>2.89</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<div>
+		<form action="/action_page.php">
+			<label for="Fullname">Full name : </label>
+			<input type="text" name="full name" id="full name" placeholder="Enter your full name">
+			<br>
+			<br>
+			<label for="email">Email: </label>
+			<input type="text" name="email" id="email" placeholder="Enter your email">
+			<br>
+			<br>
+			<label for="pwd">Password :</label>
+			<input type="password" name="pwd" id="pwd" placeholder="Enter your password">
+			<br>
+			<br>
+			<br> </form>
+	</div>
+	<br>
+	<br>
+	<form>
+		<br>
+		<br>
+		<div>
+			<form action="/action_page.php">
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="gender">Male</label>
+				<br>
+				<input type="radio" id="gender" name="gender" value="female">
+				<label for="gender">female</label>
+				<br>
+				<input type="radio" id="other" name="gender" value="other">
+				<label for="other">other</label>
+			</form>
+		</div>
+	</form>
+	<br>
+	<br>
+	<div>
+		<form action="/action_page.php">
+			<label for="department">select a department:</label>
+			<select id="department" name="department">
+				<option value="cse">Cse</option>
+				<option value="ece">Ece</option>
+				<option value="civil">Civil</option>
+				<option value="mechanical">Mechanical</option>
+			</select>
+			<input type="submit"> </div>
+	</form>
+	<br>
+	<br>
+	<div>
+		<label for="message">message :</label>
+		<textarea col="20" rows="15"></textarea>
+	</div>
+</body>
+
+</html>
