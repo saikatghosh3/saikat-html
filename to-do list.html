@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:linear-gradient(to left, yellow, green, orange,blue);
+}
+.list{ position:relative;
+    background: #fff;
+    width: 350px;
+
+
+}
+.list h2{
+    background: skyblue;
+    color: red; 
+    padding: 10px 20px;
+    font-weight: 600;}
+
+.list li
+{
+    display: flex;
+    margin: 16px;
+    align-items: center;
+}
+.list ul li
+ {
+    position: relative;
+    list-style-type: none;
+    padding: 15px 0px;
+    border-bottom: 1px solid black;
+}
+.list li p{
+    margin-left: 8px;
+    margin-right: 12px;
+}
+.btn{
+    background-color: blue;
+}
+.btn:hover{
+    background-color: mediumseagreen;
+}
+.btn2{
+    background-color: red;
+}
+.btn2:hover{
+    background-color: pink;
+    padding:8px 16px ;
+}
+    </style>
+</head>
+<body>
+    <div class="list">
+        <h2> css todo list</h2>
+        <div>
+            <input type="text" id="any" name="any">
+            <button class="btn" type="button">click ok</button>
+        </div>
+        <li>
+                <input type="checkbox" name="">
+                <p> Eat</p>
+                <span> &#10060;</span>
+        </li>
+        <li>
+                <input type="checkbox" name="">
+                <p>Drink</p>
+                <span> &#10060;</span>
+            
+        </li>
+        <li>
+        
+                <input type="checkbox" name="">
+                <p> sleep</p>
+                <span> &#10060;</span>
+            
+        </li>
+        <li>
+        
+                <input type="checkbox" name="">
+                <p> Exercise</p>
+                <span> &#10060;</span>
+    
+        </li>
+        <li>
+    
+                <input type="checkbox" name="">
+                <p>Run</p>
+                <span> &#10060;</span>
+
+        </li>
+        <div>
+            <button class="btn2" type="button"> Log out </button>
+        </div>
+    </div>
+</body>
+</html>

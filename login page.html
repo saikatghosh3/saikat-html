@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{ background-image:linear-gradient(to left, white,white, orange,blue);}
+      #max {
+        list-style-type:none;
+        display:flex;
+        float: right;
+        margin-top:-120px;
+      }
+      .btn{ background-color:rgb(49, 202, 49);
+      border: 2px solid black;}
+      .btn2{background-color:rgb(49, 202, 49);
+    border: 2px solid black; }
+    .user-info{ justify-content: center;
+        display: flex;
+        margin-top:150px ;
+    }
+    .user-info2{
+        border: 1px solid black;margin-top: 20px;
+        padding: 20px 20px;
+        color: black;
+        border-radius: 20px;
+
+    }
+  
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul id="max">
+        <li><a href="login.html"><button class="btn" type="button">Login</button></a></li> 
+        <li>OR</li>
+        <li> <a href="sign-up.html"><button class="btn2" type="button">sign up</button></a>
+        </li>
+    </div>
+      </ul>
+      <div class="user-info">
+      <form  class="user-info2">
+        <label for="fname">Full name:</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder=" Enter your full name"
+        /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email please"
+        /><br />
+        <label for="pwd">Password :</label><br />
+        <input
+          type="password"
+          id="pwd"
+          name="pwd"
+          placeholder="Enter your password"
+        />
+        <br />
+        <br />
+        <button  class="btn" type="button">confirm</button>
+      </form>
+    </div>
+   
+  </body>
+</html>

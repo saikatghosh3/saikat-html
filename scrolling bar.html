@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .div1 {
+        height: 100px;
+        width: 280px;
+        background-color: green;
+        border: 1px solid red;
+        overflow: scroll;
+        float: right;
+      }
+      .tooltip-text {
+        visibility: hidden;
+        width: 150px;
+        background-color: indigo;
+        color: whiite;
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: 1;
+      }
+      .tooltip:hover.tooltip.tooltip-text {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <p>
+        Magna consetetur tempor ipsum consetetur lorem. Justo rebum consetetur
+        consetetur ut clita stet erat est vero. Dolore dolore tempor invidunt
+        lorem ipsum sanctus aliquyam rebum est, takimata duo labore takimata
+        lorem et voluptua at consetetur, eirmod tempor sadipscing sed voluptua
+        sed ut amet, lorem stet sit elitr lorem vero dolor kasd duo eos. Stet
+        elitr lorem eos amet dolore, et ut tempor est sea eirmod justo dolores.
+        Voluptua elitr sed gubergren sit. Est gubergren sed diam voluptua elitr
+        sed sadipscing, sanctus accusam sea consetetur rebum vero, et eos clita
+        labore et nonumy et ipsum. Sit elitr sadipscing ut accusam no.
+      </p>
+    </div>
+    <div>
+      <a href="#" class="tooltip">
+        Facebook
+        <span class="tooltip-text">Facebook is a social media </span>
+      </a>
+    </div>
+  </body>
+</html>
